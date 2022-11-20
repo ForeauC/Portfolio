@@ -59,13 +59,6 @@ export default {
         descriptionPresentation,
         contactPage,
         footerPage
-    },
-    metaInfo: {
-        title: 'Clément Foreau développeur web front end',
-        meta: [
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { name: 'description', content: 'Développeur web front end, création de site web.' }
-        ]
     }
 }
 </script>
