@@ -13,7 +13,7 @@
                 <h3>Sur les réseaux</h3>
             </div>
             <div class="contact__social-icon">
-                <a href="#">
+                <a href="https://github.com/ForeauC">
                     <img class="icon-contact" src="../../assets/github.png" alt="" />
                 </a>
                 <a href="#">
@@ -75,6 +75,25 @@ export default {
         & .icon-contact {
             padding: 0 1rem;
         }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contact {
+        display: block;
+        &__mail {
+            width: 100%;
+        }
+        &__social {
+            width: 100%;
+            padding-top: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact__mail-text {
+        font-size: 1.2rem;
     }
 }
 </style>

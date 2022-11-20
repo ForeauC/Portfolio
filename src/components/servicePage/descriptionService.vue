@@ -79,8 +79,19 @@ export default {
             font-weight: 600;
         }
         &-text {
-            padding-bottom: 1rem;
+            padding: 0 1rem 1rem 1rem;
         }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .service__card {
+        width: calc(50% - 2rem);
+    }
+}
+@media screen and (max-width: 625px) {
+    .service__card {
+        width: calc(100% - 2rem);
     }
 }
 </style>

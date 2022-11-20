@@ -51,9 +51,8 @@ export default {
     margin-top: 4rem;
     width: 100%;
     &__card {
-        width: calc(33.33333% - 4rem);
+        width: calc(33.33333% - 2rem);
         height: auto;
-        padding: 1rem;
         cursor: pointer;
 
         &-img {
@@ -110,5 +109,17 @@ export default {
 
 .projet__card-img:hover .projet__card-text {
     opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .projet__card {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .projet__card {
+        width: calc(100% - 2rem);
+    }
 }
 </style>

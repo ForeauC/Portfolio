@@ -4,22 +4,19 @@
         <div class="nav__content"></div>
         <ul class="nav__content-link" :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'">
             <li class="nav__content-link-item">
-                <a href=""> SERVICES </a>
+                <a href="#service" v-smooth-scroll> SERVICES </a>
             </li>
             <li class="nav__content-link-item">
-                <a href=""> MÉTHODES </a>
+                <a href="#methode" v-smooth-scroll> MÉTHODES </a>
             </li>
             <li class="nav__content-link-item">
-                <a href=""> PROJETS </a>
+                <a href="#projet" v-smooth-scroll> PROJETS </a>
             </li>
             <li class="nav__content-link-item">
-                <a href=""> TARIFS </a>
+                <a href="#propos" v-smooth-scroll> À PROPOS </a>
             </li>
             <li class="nav__content-link-item">
-                <a href=""> À PROPOS </a>
-            </li>
-            <li class="nav__content-link-item">
-                <a href=""> CONTACT </a>
+                <a href="#contact" v-smooth-scroll> CONTACT </a>
             </li>
         </ul>
     </div>

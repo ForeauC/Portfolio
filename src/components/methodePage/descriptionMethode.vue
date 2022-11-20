@@ -1,35 +1,55 @@
 <template>
     <div class="methode">
         <article class="methode__card">
-            <h4 class="methode__card-title">MISE EN PLACE DU PROJET</h4>
-            <p class="methode__card-text">
-                En appele visio ou par mail, nous échangeons sur vos besoins et les bases de votre
-                projet.<br /><br />Définition du design, des fonctionnalité et du délais de
-                réalisations.
-            </p>
+            <div class="methode__card-number">
+                <p>1</p>
+            </div>
+            <div class="methode__card-text">
+                <h4 class="methode__card-text-title">MISE EN PLACE DU PROJET</h4>
+                <p class="methode__card-text-description">
+                    En appele visio ou par mail, nous échangeons sur vos besoins et les bases de
+                    votre projet.<br /><br />Définition du design, des fonctionnalité et du délais
+                    de réalisations.
+                </p>
+            </div>
         </article>
         <article class="methode__card">
-            <h4 class="methode__card-title">ÉCHANGES DES DOCUMENTS</h4>
-            <p class="methode__card-text">
-                Pour pouvoir lancer le dévoloppements, vous me transmettez les ducuements et
-                ressources qui seront utlisé (logo, contenue texte, ect).<br /><br />Signature du
-                devis final.
-            </p>
+            <div class="methode__card-number">
+                <p>2</p>
+            </div>
+            <div class="methode__card-text">
+                <h4 class="methode__card-text-title">ÉCHANGES DES DOCUMENTS</h4>
+                <p class="methode__card-text-description">
+                    Pour pouvoir lancer le dévoloppements, vous me transmettez les ducuements et
+                    ressources qui seront utlisé (logo, contenue texte, ect).<br /><br />Signature
+                    du devis final.
+                </p>
+            </div>
         </article>
         <article class="methode__card">
-            <h4 class="methode__card-title">DÉVELOPPEMENT</h4>
-            <p class="methode__card-text">
-                Réalisations du dévoloppements du projet. Vous serez informer de l'avancer.<br /><br />Des
-                points en visio ou mail seront possible durant le développement.
-            </p>
+            <div class="methode__card-number">
+                <p>3</p>
+            </div>
+            <div class="methode__card-text">
+                <h4 class="methode__card-text-title">DÉVELOPPEMENT</h4>
+                <p class="methode__card-text-description">
+                    Réalisations du dévoloppements du projet. Vous serez informer de l'avancer.<br /><br />Des
+                    points en visio ou mail seront possible durant le développement.
+                </p>
+            </div>
         </article>
         <article class="methode__card">
-            <h4 class="methode__card-title">DÉPLOIMENT DU PROJET</h4>
-            <p class="methode__card-text">
-                Dans un premier temps, nous validerons le site ou l'application. Si besoins des
-                modifications seront apporté.<br /><br />Aprés validations, le site sera déployé en
-                ligne.
-            </p>
+            <div class="methode__card-number">
+                <p>4</p>
+            </div>
+            <div class="methode__card-text">
+                <h4 class="methode__card-text-title">DÉPLOIMENT DU PROJET</h4>
+                <p class="methode__card-text-description">
+                    Dans un premier temps, nous validerons le site ou l'application. Si besoins des
+                    modifications seront apporté.<br /><br />Aprés validations, le site sera déployé
+                    en ligne.
+                </p>
+            </div>
         </article>
     </div>
 </template>
@@ -44,34 +64,46 @@ export default {
 .methode {
     align-items: stretch;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
     margin-top: 4rem;
     width: 100%;
     &__card {
-        width: calc(100% - 2rem);
+        width: calc(50% - 4rem);
+        display: flex;
         margin: 0 1rem 0 1rem;
         padding: 1.5rem 0;
-        box-shadow: 3px 3px 20px #00000034;
-        border: solid 1px #cebfac;
-        border-radius: 1rem;
-        transition: all 1s ease;
-        cursor: pointer;
-        &:hover {
-            -webkit-transform: scale(1.05);
-            -ms-transform: scale(1.05);
-            transform: scale(1.05);
-            transition: 1s ease;
-        }
-        &-title {
-            padding-bottom: 1.6rem;
-            font-size: 1.2rem;
-            font-weight: 600;
+        &-number {
+            width: 20%;
+            & p {
+                width: 80%;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                border: 1px solid #cebfac;
+                cursor: pointer;
+                &:hover {
+                    color: white;
+                    background-color: #cebfac;
+                }
+            }
         }
         &-text {
-            padding: 0 1.2rem;
+            width: 80%;
+            text-align: start;
+            padding-left: 10px;
+            &-title {
+                padding-bottom: 20px;
+            }
         }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .methode__card {
+        width: calc(100% - 2rem);
     }
 }
 </style>

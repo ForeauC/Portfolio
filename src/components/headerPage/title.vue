@@ -33,7 +33,7 @@
             <h1>DÉVELOPPEUR WEB<br /><span>FRONT-END</span></h1>
         </div>
         <div class="title__button">
-            <button>En savoir plus</button>
+            <button><a href="#service" v-smooth-scroll>En savoir plus</a></button>
         </div>
     </div>
 </template>
@@ -49,6 +49,7 @@ export default {
     color: #fefefe;
     width: 100%;
     text-align: center;
+    align-items: center;
     &__logo {
         max-width: calc(100px + 6vw);
         margin: 0 auto;
@@ -63,6 +64,7 @@ export default {
     &__text {
         font-size: calc(12px + 2vw);
         line-height: 85px;
+        padding: 0 10px 0 10px;
 
         padding-bottom: calc(30px + 2vh);
         & span {
@@ -71,6 +73,7 @@ export default {
     }
     &__button {
         text-align: center;
+        padding-bottom: 3rem;
         & button {
             padding: 10px 40px;
             background-color: #cebfac;

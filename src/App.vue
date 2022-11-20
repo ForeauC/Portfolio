@@ -4,23 +4,23 @@
         <navBar />
         <titleHome />
     </div>
-    <div class="serv container">
+    <div id="service" class="serv container">
         <titleService />
         <descriptionService />
     </div>
-    <div class="method container">
+    <div id="methode" class="method container">
         <titleMethode />
         <descriptionMethode />
     </div>
-    <div class="proj container">
+    <div id="projet" class="proj container">
         <titleProjet />
         <descriptionProjet />
     </div>
-    <div class="present container">
+    <div id="propos" class="present container">
         <titlePresentation />
         <descriptionPresentation />
     </div>
-    <div class="contact-container">
+    <div id="contact" class="contact-container">
         <div class="cont container">
             <contactPage />
         </div>
@@ -59,6 +59,13 @@ export default {
         descriptionPresentation,
         contactPage,
         footerPage
+    },
+    metaInfo: {
+        title: 'Clément Foreau développeur web front end',
+        meta: [
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { name: 'description', content: 'Développeur web front end, création de site web.' }
+        ]
     }
 }
 </script>
@@ -83,14 +90,14 @@ li {
 }
 
 .header {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     background-image: url('assets/background.jpg');
     background-size: cover;
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: auto;
     align-items: center;
     display: flex;

@@ -7,7 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-meta": "^2.4.0",
+    "vue3-smooth-scroll": "^0.8.1"
   },
   "devDependencies": {
     "@vue/cli-service": "~5.0.0",
