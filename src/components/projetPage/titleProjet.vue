@@ -1,7 +1,7 @@
 <template>
     <div class="title-methode">
         <h2 class="title-methode__h2">MES PROJETS</h2>
-        <h3 class="title-methode__h3">Un aperçu des mes projets réalisé</h3>
+        <h3 class="title-methode__h3">Un aperçu des mes projets réalisés</h3>
         <hr class="title-methode__hr" />
     </div>
 </template>

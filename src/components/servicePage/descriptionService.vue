@@ -9,12 +9,12 @@
             <img src="../../assets/window.png" alt="" />
             <h4 class="service__card-title">INTÉGRATION WEB</h4>
             <p class="service__card-text">
-                Des intégration respectant les standart du web . ( HTML / CSS )
+                Des intégrations respectant les standart du web . ( HTML / CSS )
             </p>
         </article>
         <article class="service__card">
             <img src="../../assets/cle.png" alt="" />
-            <h4 class="service__card-title">DÉVOLLEPEMENT DE FONCTIONNALITÉ</h4>
+            <h4 class="service__card-title">DÉVOLEPPEMENT DE FONCTIONNALITÉ</h4>
             <p class="service__card-text">Fonctionnalité selon vos besoins métier.</p>
         </article>
         <article class="service__card">
@@ -33,7 +33,7 @@
             <img src="../../assets/ajuster.png" alt="" />
             <h4 class="service__card-title">RESPONSIVE DESIGN</h4>
             <p class="service__card-text">
-                Comptabilité sur tout les supports ( Desktop, tablette et mobile )
+                Comptabilité sur tous les supports ( Desktop, tablette et mobile )
             </p>
         </article>
     </div>

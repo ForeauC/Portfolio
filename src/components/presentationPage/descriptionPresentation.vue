@@ -1,12 +1,13 @@
 <template>
     <div class="presentation">
         <p class="presentation__text">
-            Après une carrière dans le commerce, j’ai souhaité me reconvertir dans un travail qui me
+            Après une carrière dans le commerce, j’ai souhaité me reconvertir dans un métier qui me
             passionne. Je me suis donc lancé dans la formation de développeur web chez Open class
             room.<br /><br />Après obtention du diplôme, étant entrepreneur dans l’âme, il était
             évident pour moi de me lancer en freelance. <br /><br />C’est pour moi un plaisir de
-            crée un site web ou une application, en prenant soin de répondre à vos besoins. Ayant le
-            souci du détail, je m’investis pleinement pour réaliser vos projets de façon optimal.
+            créer un site web ou une application, en prenant soin de répondre à vos besoins. Ayant
+            le souci du détail, je m’investis pleinement pour réaliser vos projets de façon
+            optimale.
         </p>
         <svg
             class="presentation__img"

@@ -7,9 +7,9 @@
             <div class="methode__card-text">
                 <h4 class="methode__card-text-title">MISE EN PLACE DU PROJET</h4>
                 <p class="methode__card-text-description">
-                    En appele visio ou par mail, nous échangeons sur vos besoins et les bases de
-                    votre projet.<br /><br />Définition du design, des fonctionnalité et du délais
-                    de réalisations.
+                    En appel visio ou par mail, nous échangeons sur vos besoins et les bases de
+                    votre projet.<br /><br />Définition du design, des fonctionnalités et du délai
+                    de réalisation.
                 </p>
             </div>
         </article>
@@ -20,8 +20,8 @@
             <div class="methode__card-text">
                 <h4 class="methode__card-text-title">ÉCHANGES DES DOCUMENTS</h4>
                 <p class="methode__card-text-description">
-                    Pour pouvoir lancer le dévoloppements, vous me transmettez les ducuements et
-                    ressources qui seront utlisé (logo, contenue texte, ect).<br /><br />Signature
+                    Pour pouvoir lancer le développement, vous me transmettez les documents et
+                    ressources qui seront utlisés (logo, contenu texte, etc).<br /><br />Signature
                     du devis final.
                 </p>
             </div>
@@ -33,8 +33,8 @@
             <div class="methode__card-text">
                 <h4 class="methode__card-text-title">DÉVELOPPEMENT</h4>
                 <p class="methode__card-text-description">
-                    Réalisations du dévoloppements du projet. Vous serez informer de l'avancer.<br /><br />Des
-                    points en visio ou mail seront possible durant le développement.
+                    Réalisation du développement du projet. Vous serez informé de l'avancée.<br /><br />Des
+                    points en visio ou mail seront possibles durant le développement.
                 </p>
             </div>
         </article>
@@ -43,11 +43,11 @@
                 <p>4</p>
             </div>
             <div class="methode__card-text">
-                <h4 class="methode__card-text-title">DÉPLOIMENT DU PROJET</h4>
+                <h4 class="methode__card-text-title">DÉPLOIEMENT DU PROJET</h4>
                 <p class="methode__card-text-description">
                     Dans un premier temps, nous validerons le site ou l'application. Si besoins des
-                    modifications seront apporté.<br /><br />Aprés validations, le site sera déployé
-                    en ligne.
+                    modifications seront apportées.<br /><br />Aprés validations, le site sera
+                    déployé en ligne.
                 </p>
             </div>
         </article>

@@ -1,7 +1,7 @@
 <template>
     <div class="title-methode">
         <h2 class="title-methode__h2">MÉTHODES</h2>
-        <h3 class="title-methode__h3">Pour la réalisation de vos projet</h3>
+        <h3 class="title-methode__h3">Pour la réalisation de vos projets</h3>
         <hr class="title-methode__hr" />
     </div>
 </template>
