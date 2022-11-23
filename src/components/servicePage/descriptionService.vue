@@ -14,7 +14,7 @@
         </article>
         <article class="service__card">
             <img src="../../assets/cle.png" alt="" />
-            <h4 class="service__card-title">DÉVOLEPPEMENT DE FONCTIONNALITÉ</h4>
+            <h4 class="service__card-title">DÉVELOPPEMENT DE FONCTIONNALITÉ</h4>
             <p class="service__card-text">Fonctionnalité selon vos besoins métier.</p>
         </article>
         <article class="service__card">
